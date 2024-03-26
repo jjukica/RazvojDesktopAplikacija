@@ -84,5 +84,9 @@ public class Main {
 		btnButton.setActionCommand("The button");
 		btnButton.setBounds(10, 11, 168, 52);
 		frmJure.getContentPane().add(btnButton);
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setBounds(10, 74, 89, 23);
+		frmJure.getContentPane().add(btnNewButton);
 	}
 }
